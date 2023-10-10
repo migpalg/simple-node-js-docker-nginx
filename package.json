@@ -1,0 +1,16 @@
+{
+  "name": "hello-node",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "author": "Miguel Palacio <migpalg@gmail.com>",
+  "scripts": {
+    "start": "node src/main"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2"
+  }
+}
