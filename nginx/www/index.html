@@ -3,12 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles.css" />
+
     <title>Hello!</title>
   </head>
   <body>
-    <h2>This is a test!</h2>
-    <button id="call-button">Call API</button>
-    <pre><code id="call-result"></code></pre>
+    <div class="container">
+      <h2 class="title">Server test</h2>
+      <button class="call-button" id="call-button">Call API</button>
+      <pre
+        class="call-result"
+      ><code id="call-result">Result will be displayed here</code></pre>
+    </div>
 
     <script src="/app.js"></script>
   </body>
